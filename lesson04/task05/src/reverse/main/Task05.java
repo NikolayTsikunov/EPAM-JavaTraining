@@ -15,7 +15,9 @@ public class Task05 {
         reverseNumber = ParsingNumbers.putDigit(reverseNumber, ParsingNumbers.takeDigit(number, 6), 2);
         reverseNumber = ParsingNumbers.putDigit(reverseNumber, ParsingNumbers.takeDigit(number, 7), 1);
 
-        System.out.println(number);
-        System.out.println(reverseNumber);
+        System.out.println("**** Demonstration of reversation ****");
+
+        System.out.printf("The prime number is %d\n", number);
+        System.out.printf("The reversed number is %d\n", reverseNumber);
     }
 }
