@@ -1,4 +1,4 @@
-public class Task02 {
+public class Task01 {
     public static void main(String[] args) {
 
         System.out.println("**** Temperature converter demonstration ****");
@@ -26,20 +26,5 @@ public class Task02 {
         System.out.printf("\nConvert kelvin = %dK to celsius: %.2fC\n",
                 kelvin, TemperatureConverter.convertKtoC(kelvin)
         );
-
-        System.out.println("\n**** Weight converter demonstration ****");
-        int kg = 1300;
-        System.out.printf("\nConvert Kg = %d kg to MiliGram: %.2f mg\n",
-                kg, WeightConverter.convertKgToMg(kg)
-        );
-        System.out.printf("\nConvert Kg = %d kg to Gram: %.2f g\n",
-                kg, WeightConverter.convertKgToG(kg)
-        );
-        System.out.printf("\nConvert Kg = %d kg to Tones: %.2f T\n",
-                kg, WeightConverter.convertKgToT(kg)
-        );
-
-        System.out.println("\n**** Replacement demonstration ****");
-        ReplacementValues.demonstrateReplacement( 10, 6);
     }
 }
