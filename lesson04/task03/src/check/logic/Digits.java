@@ -1,10 +1,10 @@
 package check.logic;
 
 public class Digits {
-    final public static int ONE = 1;
-    final public static int TWO = 2;
-    final public static int TREE = 3;
-    final public static int FOUR = 4;
+    final private static int ONE = 1;
+    final private static int TWO = 2;
+    final private static int TREE = 3;
+    final private static int FOUR = 4;
 
     public static boolean isDigitsRise(int number) {
 
