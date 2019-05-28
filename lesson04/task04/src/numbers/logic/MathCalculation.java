@@ -2,11 +2,6 @@ package numbers.logic;
 
 public class MathCalculation {
 
-    final private static int ONE = 1;
-    final private static int TWO = 2;
-    final private static int TREE = 3;
-    final private static int FOUR = 4;
-    final private static int FIVE = 5;
     final private static int SIX = 6;
 
     public static double countArithmeticMean(int number) {
@@ -20,35 +15,53 @@ public class MathCalculation {
 
     private static double calculateSum(int number) {
 
-        int digit = ParsingNumbers.takeDigit(number, SIX);
+        int digit = number % 10;
+        number /= 10;
         int sum = digit;
-        digit = ParsingNumbers.takeDigit(number, FIVE);
+
+        digit = number % 10;
+        number /= 10;
         sum += digit;
-        digit = ParsingNumbers.takeDigit(number, FOUR);
+
+        digit = number % 10;
+        number /= 10;
         sum += digit;
-        digit = ParsingNumbers.takeDigit(number, TREE);
+
+        digit = number % 10;
+        number /= 10;
         sum += digit;
-        digit = ParsingNumbers.takeDigit(number, TWO);
+
+        digit = number % 10;
+        number /= 10;
         sum += digit;
-        digit = ParsingNumbers.takeDigit(number, ONE);
-        sum += digit;
+
+        sum += number;
 
         return sum;
     }
 
     private static int calculateComposition(int number) {
-        int digit = ParsingNumbers.takeDigit(number, SIX);
+        int digit = number % 10;
+        number /= 10;
         int composition = digit;
-        digit = ParsingNumbers.takeDigit(number, FIVE);
+
+        digit = number % 10;
+        number /= 10;
         composition *= digit;
-        digit = ParsingNumbers.takeDigit(number, FOUR);
+
+        digit = number % 10;
+        number /= 10;
         composition *= digit;
-        digit = ParsingNumbers.takeDigit(number, TREE);
+
+        digit = number % 10;
+        number /= 10;
         composition *= digit;
-        digit = ParsingNumbers.takeDigit(number, TWO);
+
+        digit = number % 10;
+        number /= 10;
         composition *= digit;
-        digit = ParsingNumbers.takeDigit(number, ONE);
-        composition *= digit;
+
+        composition *= number;
 
         return composition;
     }
