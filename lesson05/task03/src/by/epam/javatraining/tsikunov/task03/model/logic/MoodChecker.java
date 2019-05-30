@@ -1,6 +1,6 @@
 package by.epam.javatraining.tsikunov.task03.model.logic;
 
-public class CheckMood {
+public class MoodChecker {
 
     public static String predictMood() {
         int numberMood = Randomiser.takeNumber();

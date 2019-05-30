@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CheckMoodTest {
+public class MoodCheckerTest {
 
     @Test
     public void predictMood9() {
@@ -12,7 +12,7 @@ public class CheckMoodTest {
 
         String expected = "XD";
 
-        assertEquals(expected, CheckMood.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood(numberMood));
     }
 
     @Test
@@ -21,7 +21,7 @@ public class CheckMoodTest {
 
         String expected = ":)";
 
-        assertEquals(expected, CheckMood.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood(numberMood));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class CheckMoodTest {
 
         String expected = ":|";
 
-        assertEquals(expected, CheckMood.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood(numberMood));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class CheckMoodTest {
 
         String expected = ":/";
 
-        assertEquals(expected, CheckMood.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood(numberMood));
     }
 
     @Test
@@ -48,7 +48,7 @@ public class CheckMoodTest {
 
         String expected = ":(";
 
-        assertEquals(expected, CheckMood.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood(numberMood));
     }
 
     @Test
@@ -57,6 +57,6 @@ public class CheckMoodTest {
 
         String expected = "T_T";
 
-        assertEquals(expected, CheckMood.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood(numberMood));
     }
 }
