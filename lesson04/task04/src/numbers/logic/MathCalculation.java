@@ -2,15 +2,15 @@ package numbers.logic;
 
 public class MathCalculation {
 
-    final private static int SIX = 6;
+    final private static int AMOUNT_OF_NUMBERS = 6;
 
     public static double countArithmeticMean(int number) {
 
-        return calculateSum(number) / SIX;
+        return calculateSum(number) / AMOUNT_NUMBERS;
     }
 
     public static double countGeometricMean(int number) {
-        return Math.pow(calculateComposition(number), 1.0 / SIX);
+        return Math.pow(calculateComposition(number), 1.0 / AMOUNT_OF_NUMBERS);
     }
 
     private static double calculateSum(int number) {
