@@ -28,11 +28,13 @@ public class Date {
 
     private static String takeFebruaryDate(int day, int month, int year) {
         boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
+        String date;
         if ((isLeapYear && day == 29) || (!isLeapYear && day == 28)) {
-            return 1 + "." + ++month + "." + year;
+            date =  1 + "." + ++month + "." + year;
         } else {
-            return ++day + "." + month + "." + year;
+            date =  ++day + "." + month + "." + year;
         }
+        return date;
     }
 
     private static String takeOrdinaryDate(int day, int month, int year) {
@@ -40,38 +42,40 @@ public class Date {
     }
 
     private static String takeDateInTheEndOfMonth(int day, int month, int year) {
+        String date;
+
         if (day == 30) {
             if (month == APRIL || month == JUNE || month == SEPTEMBER || month == NOVEMBER) {
-                return 1 + "." + ++month + "." + year;
+                date = 1 + "." + ++month + "." + year;
             } else {
-                return ++day + "." + month + "." + year;
+                date = ++day + "." + month + "." + year;
             }
+        } else if (day == 31 && month != DECEMBER) {
+            date = 1 + "." + ++month + "." + year;
+        } else {
+            date = 1 + "." + 1 + "." + ++year;
         }
 
-        if (day == 31 && month != DECEMBER) {
-            return 1 + "." + ++month + "." + year;
-        } else {
-            return 1 + "." + 1 + "." + ++year;
-        }
+
+        return date;
     }
 
     private static boolean isValidDate(int day, int month, int year) {
 
         boolean valid = true;
 
-        if (day <= 0 || month <= 0) {
+        if (day <= 0 || month <= 0 || day > 31 || month > 12) {
             valid = false;
-        }
+        } else {
 
-
-        boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
-        if (month == FEBRUARY && (!isLeapYear && day > 28) && (isLeapYear && day > 29)) {
-            valid = false;
-        }
-
-        if (day == 31) {
-            if (month == APRIL || month == JUNE || month == SEPTEMBER || month == NOVEMBER) {
+            boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
+            if (month == FEBRUARY && ((!isLeapYear && day > 28) || (isLeapYear && day > 29))) {
                 valid = false;
+            }
+            if (day == 31) {
+                if (month == APRIL || month == JUNE || month == SEPTEMBER || month == NOVEMBER) {
+                    valid = false;
+                }
             }
         }
 
