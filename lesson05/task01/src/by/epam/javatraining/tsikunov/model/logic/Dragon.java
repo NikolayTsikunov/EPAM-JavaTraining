@@ -36,4 +36,8 @@ public class Dragon {
         return heads;
     }
 
+    public static int countEyes(int heads) {
+        return heads * 2;
+    }
+
 }

@@ -12,15 +12,19 @@ public class Main {
         int ageFool = -22;
 
         int heads = Dragon.countHeads(ageFirst);
-        Printer.print(ageFirst, heads);
+        int eyes = Dragon.countEyes(heads);
+        Printer.print(ageFirst, heads, eyes);
 
         heads = Dragon.countHeads(ageSecond);
-        Printer.print(ageSecond, heads);
+        eyes = Dragon.countEyes(heads);
+        Printer.print(ageSecond, heads, eyes);
 
         heads = Dragon.countHeads(ageThird);
-        Printer.print(ageThird, heads);
+        eyes = Dragon.countEyes(heads);
+        Printer.print(ageThird, heads, eyes);
 
         heads = Dragon.countHeads(ageFool);
-        Printer.print(ageFool, heads);
+        eyes = Dragon.countEyes(heads);
+        Printer.print(ageFool, heads, eyes);
     }
 }

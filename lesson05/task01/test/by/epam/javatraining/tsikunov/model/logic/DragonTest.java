@@ -36,4 +36,12 @@ public class DragonTest {
 
         assertEquals(expected, Dragon.countHeads(age));
     }
+
+    @Test
+    public void countEyes() {
+        int heads = 50;
+        int expected = 100;
+
+        assertEquals(expected, Dragon.countEyes(heads));
+    }
 }
