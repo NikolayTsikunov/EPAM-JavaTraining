@@ -15,24 +15,25 @@ public class Date {
             return "Wrong date";
         }
 
+        String nextDate;
+
         if (month == FEBRUARY) {
-            return takeFebruaryDate(day, month, year);
+            nextDate = takeFebruaryDate(day, month, year);
+        } else if (day <= 29) {
+            nextDate = takeOrdinaryDate(day, month, year);
+        } else {
+            nextDate = takeDateInTheEndOfMonth(day, month, year);
         }
-
-        if (day <= 29) {
-            return takeOrdinaryDate(day, month, year);
-        }
-
-        return takeDateInTheEndOfMonth(day, month, year);
+        return nextDate;
     }
 
     private static String takeFebruaryDate(int day, int month, int year) {
         boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
         String date;
         if ((isLeapYear && day == 29) || (!isLeapYear && day == 28)) {
-            date =  1 + "." + ++month + "." + year;
+            date = takeEndOfMonthDate(month, year);
         } else {
-            date =  ++day + "." + month + "." + year;
+            date = takeOrdinaryDate(day, month, year);
         }
         return date;
     }
@@ -40,18 +41,21 @@ public class Date {
     private static String takeOrdinaryDate(int day, int month, int year) {
         return ++day + "." + month + "." + year;
     }
+    private static String takeEndOfMonthDate(int month, int year) {
+        return 1 + "." + ++month + "." + year;
+    }
 
     private static String takeDateInTheEndOfMonth(int day, int month, int year) {
         String date;
 
         if (day == 30) {
             if (month == APRIL || month == JUNE || month == SEPTEMBER || month == NOVEMBER) {
-                date = 1 + "." + ++month + "." + year;
+                date = takeEndOfMonthDate(month, year);
             } else {
-                date = ++day + "." + month + "." + year;
+                date = takeOrdinaryDate(day, month, year);
             }
         } else if (day == 31 && month != DECEMBER) {
-            date = 1 + "." + ++month + "." + year;
+            date = takeEndOfMonthDate(month, year);
         } else {
             date = 1 + "." + 1 + "." + ++year;
         }
@@ -67,7 +71,6 @@ public class Date {
         if (day <= 0 || month <= 0 || day > 31 || month > 12) {
             valid = false;
         } else {
-
             boolean isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
             if (month == FEBRUARY && ((!isLeapYear && day > 28) || (isLeapYear && day > 29))) {
                 valid = false;

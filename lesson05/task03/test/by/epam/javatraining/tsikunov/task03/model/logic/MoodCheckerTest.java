@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 public class MoodCheckerTest {
 
     @Test
-    public void predictMood9() {
-        int numberMood = 9;
+    public void predictMood10() {
+        int numberMood = 10;
 
         String expected = "XD";
 
@@ -16,8 +16,8 @@ public class MoodCheckerTest {
     }
 
     @Test
-    public void predictMood7() {
-        int numberMood = 7;
+    public void predictMood8() {
+        int numberMood = 8;
 
         String expected = ":)";
 
@@ -25,10 +25,19 @@ public class MoodCheckerTest {
     }
 
     @Test
-    public void predictMood5() {
-        int numberMood = 5;
+    public void predictMood6() {
+        int numberMood = 6;
 
         String expected = ":|";
+
+        assertEquals(expected, MoodChecker.findMood(numberMood));
+    }
+
+    @Test
+    public void predictMood4() {
+        int numberMood = 4;
+
+        String expected = ":/";
 
         assertEquals(expected, MoodChecker.findMood(numberMood));
     }
@@ -37,7 +46,7 @@ public class MoodCheckerTest {
     public void predictMood3() {
         int numberMood = 3;
 
-        String expected = ":/";
+        String expected = ":(";
 
         assertEquals(expected, MoodChecker.findMood(numberMood));
     }
@@ -45,15 +54,6 @@ public class MoodCheckerTest {
     @Test
     public void predictMood1() {
         int numberMood = 1;
-
-        String expected = ":(";
-
-        assertEquals(expected, MoodChecker.findMood(numberMood));
-    }
-
-    @Test
-    public void predictMood0() {
-        int numberMood = 0;
 
         String expected = "T_T";
 

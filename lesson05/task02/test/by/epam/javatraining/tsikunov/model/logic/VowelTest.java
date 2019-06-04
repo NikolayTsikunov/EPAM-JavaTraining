@@ -11,7 +11,7 @@ public class VowelTest {
 
         char letter = 'О';
 
-        assertEquals(true, Vowel.isVowelOne(letter));
+        assertEquals(true, Vowel.isVowelFirst(letter));
 
     }
 
@@ -20,7 +20,7 @@ public class VowelTest {
 
         char letter = 'п';
 
-        assertEquals(false, Vowel.isVowelOne(letter));
+        assertEquals(false, Vowel.isVowelFirst(letter));
     }
 
     @Test
@@ -28,7 +28,7 @@ public class VowelTest {
 
         char letter = 'О';
 
-        assertEquals(true, Vowel.isVowelTwo(letter));
+        assertEquals(true, Vowel.isVowelSecond(letter));
 
     }
 
@@ -37,6 +37,22 @@ public class VowelTest {
 
         char letter = 'п';
 
-        assertEquals(false, Vowel.isVowelTwo(letter));
+        assertEquals(false, Vowel.isVowelSecond(letter));
+    }
+
+    @Test
+    public void isVowelThreeTrue() {
+
+        char letter = 'ю';
+
+        assertEquals(true, Vowel.isVowelThird(letter));
+    }
+
+    @Test
+    public void isVowelThreeFalse() {
+
+        char letter = 'п';
+
+        assertEquals(false, Vowel.isVowelThird(letter));
     }
 }

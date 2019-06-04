@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Randomiser {
 
-    final private static int MOOD_RANGE = 10;
+    final private static int MOOD_RANGE = 11;
     final private static Random random = new Random();
 
     public static int takeNumber() {

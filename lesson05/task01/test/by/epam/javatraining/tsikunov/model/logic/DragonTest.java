@@ -40,7 +40,7 @@ public class DragonTest {
     @Test
     public void countEyes() {
         int heads = 50;
-        int expected = 100;
+        int expected = 306;
 
         assertEquals(expected, Dragon.countEyes(heads));
     }

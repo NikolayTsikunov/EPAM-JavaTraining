@@ -7,15 +7,21 @@ public class Main {
     public static void main(String[] args) {
 
         char letter = 'ы';
-        Print.print(letter, Vowel.isVowelOne(letter));
+        Print.print(letter, Vowel.isVowelFirst(letter));
 
         letter = 'п';
-        Print.print(letter, Vowel.isVowelOne(letter));
+        Print.print(letter, Vowel.isVowelFirst(letter));
 
         letter = 'я';
-        Print.print(letter, Vowel.isVowelTwo(letter));
+        Print.print(letter, Vowel.isVowelSecond(letter));
 
         letter = 'р';
-        Print.print(letter, Vowel.isVowelTwo(letter));
+        Print.print(letter, Vowel.isVowelSecond(letter));
+
+        letter = 'ю';
+        Print.print(letter, Vowel.isVowelThird(letter));
+
+        letter = 'р';
+        Print.print(letter, Vowel.isVowelThird(letter));
     }
 }

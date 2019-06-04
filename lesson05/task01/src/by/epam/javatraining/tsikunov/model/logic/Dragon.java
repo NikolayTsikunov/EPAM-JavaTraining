@@ -7,11 +7,12 @@ public class Dragon {
     private static final int SECOND_LIFE_PERIOD = 100;
     private static final int HEADS_IN_FIRST_PERIOD = 3;
     private static final int HEADS_IN_SECOND_PERIOD = 2;
+    private static final int EYES = 2;
 
     public static int countHeads(int age) {
 
         if(age < 0) {
-            return 0; //Protect from fool. I don't know how to make it better
+            return 0;
         }
 
         int heads = STARTED_HEAD_COUNT;
@@ -36,8 +37,8 @@ public class Dragon {
         return heads;
     }
 
-    public static int countEyes(int heads) {
-        return heads * 2;
+    public static int countEyes(int age) {
+        return countHeads(age) * EYES;
     }
 
 }
