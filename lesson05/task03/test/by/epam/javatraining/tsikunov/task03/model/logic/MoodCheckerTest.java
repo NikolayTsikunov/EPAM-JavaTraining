@@ -12,7 +12,7 @@ public class MoodCheckerTest {
 
         String expected = "XD";
 
-        assertEquals(expected, MoodChecker.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood());
     }
 
     @Test
@@ -21,7 +21,7 @@ public class MoodCheckerTest {
 
         String expected = ":)";
 
-        assertEquals(expected, MoodChecker.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood());
     }
 
     @Test
@@ -30,7 +30,7 @@ public class MoodCheckerTest {
 
         String expected = ":|";
 
-        assertEquals(expected, MoodChecker.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood());
     }
 
     @Test
@@ -39,7 +39,7 @@ public class MoodCheckerTest {
 
         String expected = ":/";
 
-        assertEquals(expected, MoodChecker.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood());
     }
 
     @Test
@@ -48,7 +48,7 @@ public class MoodCheckerTest {
 
         String expected = ":(";
 
-        assertEquals(expected, MoodChecker.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood());
     }
 
     @Test
@@ -57,6 +57,6 @@ public class MoodCheckerTest {
 
         String expected = "T_T";
 
-        assertEquals(expected, MoodChecker.findMood(numberMood));
+        assertEquals(expected, MoodChecker.findMood());
     }
 }
