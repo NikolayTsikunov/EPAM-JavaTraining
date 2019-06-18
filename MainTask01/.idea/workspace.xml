@@ -13,39 +13,38 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/view/print/Print.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/controller/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/arrays/ArrayProcessing.java">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="157" column="61" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+            <state relative-caret-position="150">
+              <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/tsikunov/model/arrays/ArrayProcessingTest.java">
+        <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/tsikunov/model/processing/VectorSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/container/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1747#1748#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,24 +54,48 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MyVector</find>
+      <find>Capasity</find>
+      <find>array</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Vector</replace>
+      <replace>Capacity</replace>
+      <replace>Vector vector</replace>
+      <replace>vector</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/by/epam/javatraining/tsikunov/model/arrays/ArrayProcessingTest.java" />
         <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/arrays/ArrayProcessing.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/controller/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/ArrayProcessing.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/entity/Vector.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/ArraySearch.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/ArrayLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/container/Vector.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorSearch.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/javatraining/tsikunov/model/processing/VectorSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorSorting.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="468" />
-    <option name="y" value="39" />
+    <option name="x" value="326" />
+    <option name="y" value="44" />
     <option name="width" value="1400" />
-    <option name="height" value="1058" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,6 +110,58 @@
               <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
               <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tsikunov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tsikunov" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tsikunov" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tsikunov" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tsikunov" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -99,7 +174,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="D:/Program Files/Java/junit4/junit-4.13-beta-3.jar!/" />
+    <property name="last_opened_file_path" value="D:/Program Files/Java/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -128,16 +203,29 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ArrayProcessingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.tsikunov.controller.main.Main" />
       <module name="MainTask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.tsikunov.model.arrays.*" />
+          <option name="PATTERN" value="by.epam.javatraining.tsikunov.controller.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.epam.javatraining.tsikunov.model.arrays" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.tsikunov.model.arrays.ArrayProcessingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MainTask01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.javatraining.tsikunov.model.processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.tsikunov.model.processing" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.tsikunov.model.processing.VectorSearchTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,7 +233,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayProcessingTest" />
+        <item itemvalue="JUnit.VectorSearchTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,94 +249,122 @@
       <option name="presentableId" value="Default" />
       <updated>1560328378303</updated>
       <workItem from="1560328379552" duration="9824000" />
+      <workItem from="1560773372502" duration="3093000" />
+      <workItem from="1560838267976" duration="15482000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 01m 07s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 29m 43s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 01m 15s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 30m 29s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 01m 23s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 31m 13s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 01m 32s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 31m 15s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 01m 43s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 32m 11s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 03m 37s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 32m 16s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 06m 50s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 32m 47s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 06m 59s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 33m 12s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 07m 24s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 34m 02s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayProcessingTest - 2019.06.12 at 16h 08m 00s.xml">
-      <configuration name="ArrayProcessingTest" configurationId="JUnit" />
+    <history-entry file="VectorSearchTest - 2019.06.18 at 16h 35m 00s.xml">
+      <configuration name="VectorSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9824000" />
+    <option name="totallyTimeSpent" value="28399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="468" y="39" width="1400" height="1058" extended-state="0" />
-    <editor active="true" />
+    <frame x="326" y="44" width="1400" height="1039" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26025918" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39848813" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25689086" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39801544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/qqq.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/qqq.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/arrays/array.java" />
+    <entry file="jar://D:/Program Files/Java/junit4/junit-4.13-beta-3.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/arrays/array.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/controller/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/container/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -258,27 +375,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/controller/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/junit4/junit-4.13-beta-3.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/tsikunov/model/arrays/ArrayProcessingTest.java">
+    <entry file="file://$PROJECT_DIR$/test/by/epam/javatraining/tsikunov/model/processing/VectorSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/arrays/ArrayProcessing.java">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/tsikunov/model/processing/VectorSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="157" column="61" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+        <state relative-caret-position="150">
+          <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -355,7 +475,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hamcrest-core-1.3</last-edited>
+          <last-edited>log4j-1.2.17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
