@@ -20,7 +20,7 @@ public class VectorSorting {
      */
     public static void sortBubbleIncrease(Vector vector) {
         if (isExists(vector)) {
-            for (int i = 0; i < vector.getSize(); i++) {
+            for (int i = 1; i < vector.getSize(); i++) {
                 boolean notSort = true;
                 for (int j = 0; j < vector.getSize() - i; j++) {
                     if (vector.getElement(j) > vector.getElement(j + 1)) {

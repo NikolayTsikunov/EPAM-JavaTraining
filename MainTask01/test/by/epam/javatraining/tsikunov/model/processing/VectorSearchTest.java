@@ -152,4 +152,56 @@ public class VectorSearchTest {
         assertEquals(expectedVector, vector);
     }
 
+    @Test
+    public void testSortSelectionDecrease() {
+        Vector vector = new Vector();
+        vector.add(9, 5, 4, 10, 1, 0);
+
+        Vector expectedVector = new Vector();
+        expectedVector.add(10, 9, 5, 4, 1, 0);
+
+        VectorSorting.sortSelectionDecrease(vector);
+
+        assertEquals(expectedVector, vector);
+    }
+
+    @Test
+    public void testSortSelectionIncrease() {
+        Vector vector = new Vector();
+        vector.add(9, 5, 4, 10, 1, 0);
+
+        Vector expectedVector = new Vector();
+        expectedVector.add(0, 1, 4, 5, 9, 10);
+
+        VectorSorting.sortSelectionIncrease(vector);
+
+        assertEquals(expectedVector, vector);
+    }
+
+    @Test
+    public void testSortInsertionDecrease() {
+        Vector vector = new Vector();
+        vector.add(9, 5, 4, 10, 1, 0);
+
+        Vector expectedVector = new Vector();
+        expectedVector.add(10, 9, 5, 4, 1, 0);
+
+        VectorSorting.sortInsertionDecrease(vector);
+
+        assertEquals(expectedVector, vector);
+    }
+
+    @Test
+    public void testSortInsertionIncrease() {
+        Vector vector = new Vector();
+        vector.add(9, 5, 4, 10, 1, 0);
+
+        Vector expectedVector = new Vector();
+        expectedVector.add(0, 1, 4, 5, 9, 10);
+
+        VectorSorting.sortInsertionIncrease(vector);
+
+        assertEquals(expectedVector, vector);
+    }
+
 }
